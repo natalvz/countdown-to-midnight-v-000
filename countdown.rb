@@ -4,5 +4,5 @@ def countdown(number)
   seconds = number
   until seconds == 0 
   puts "#{number} SECOND(S)!"
-  seconds -=
+  seconds -= 1  
 end
