@@ -3,5 +3,6 @@
 def countdown(number)
   seconds = number
   until seconds == 0 
-  puts 
+  puts "#{number} SECOND(S)!"
+  seconds -=
 end
